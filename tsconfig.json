@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "bundler",
+    "types": ["@cloudflare/workers-types"]
+  }
+}

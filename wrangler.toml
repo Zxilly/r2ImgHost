@@ -1,0 +1,10 @@
+name = "r2-image-host"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+node_compat = true
+
+ [[r2_buckets]]
+ binding = "IMG_BUCKET"
+ bucket_name = "img-bucket"
+
+
