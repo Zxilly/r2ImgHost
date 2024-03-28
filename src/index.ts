@@ -75,6 +75,18 @@ router.put('/:name', async (req, env) => {
 router.get('/:hash', async (req, env) => {
   const hash = req.params.hash;
 
+  if (hash.includes('.')) {
+    const hex = await sha1Hex(hash);
+    const url = new URL(req.url);
+    url.pathname = `/${hex}`;
+    return new Response(url.toString(), {
+      status: 200, headers: {
+        'Content-Type': 'text/plain',
+        'Cache-Control': 'no-store'
+      }
+    });
+  }
+
   const object = await env.IMG_BUCKET.get(hash);
 
   if (!object) {
