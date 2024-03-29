@@ -72,6 +72,8 @@ router.put('/:name', async (req, env) => {
   return new Response(url.toString(), { status: 201 });
 });
 
+const hashMatcher = /^[0-9a-f]{40}$/;
+
 router.get('/:hash', async (req, env) => {
   const hash = req.params.hash;
 
@@ -85,6 +87,10 @@ router.get('/:hash', async (req, env) => {
         'Cache-Control': 'no-store'
       }
     });
+  }
+
+  if (!hashMatcher.test(hash)) {
+    return new Response('Invalid hash', { status: 400 });
   }
 
   const object = await env.IMG_BUCKET.get(hash);
