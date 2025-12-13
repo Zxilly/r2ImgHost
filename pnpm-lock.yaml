@@ -12,8 +12,8 @@ importers:
         specifier: ^4.20251213.0
         version: 4.20251213.0
       '@types/js-md5':
-        specifier: ^0.7.2
-        version: 0.7.2
+        specifier: ^0.8.0
+        version: 0.8.0
       file-type:
         specifier: ^21.1.1
         version: 21.1.1
@@ -385,8 +385,8 @@ packages:
   '@tokenizer/token@0.3.0':
     resolution: {integrity: sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==}
 
-  '@types/js-md5@0.7.2':
-    resolution: {integrity: sha512-IwcFIov1JbiEToo3DgrVEwkMUR1BVlVyLjk245AzGHyyOlyddDFIeSIZO+WlhTortOa4P1PdCS8cDrTl7RW1HA==}
+  '@types/js-md5@0.8.0':
+    resolution: {integrity: sha512-gQkc1Felhyj+aB9jmz/ICLm1fDPQx7l/60JIBSSEC+j09JeaINlzd0Wj9LZlQkHnV5rJYkroOHE5wdbDgADJrw==}
 
   acorn-walk@8.3.2:
     resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
@@ -805,7 +805,7 @@ snapshots:
 
   '@tokenizer/token@0.3.0': {}
 
-  '@types/js-md5@0.7.2': {}
+  '@types/js-md5@0.8.0': {}
 
   acorn-walk@8.3.2: {}
 
