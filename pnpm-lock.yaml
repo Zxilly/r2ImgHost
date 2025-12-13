@@ -18,8 +18,8 @@ importers:
         specifier: ^21.1.1
         version: 21.1.1
       itty-router:
-        specifier: ^4.2.2
-        version: 4.2.2
+        specifier: ^5.0.22
+        version: 5.0.22
       mime:
         specifier: ^4.1.0
         version: 4.1.0
@@ -461,8 +461,8 @@ packages:
   is-arrayish@0.3.4:
     resolution: {integrity: sha512-m6UrgzFVUYawGBh1dUsWR5M2Clqic9RVXC/9f8ceNlv2IcO9j9J/z8UoCLPqtsPBFNzEpfR3xftohbfqDx8EQA==}
 
-  itty-router@4.2.2:
-    resolution: {integrity: sha512-KegPW0l9SNPadProoFT07AB84uOqLUwzlXQ7HsqkS31WUrxkjdhcemRpTDUuetbMJ89uBtWeQSVoiEmUAu31uw==}
+  itty-router@5.0.22:
+    resolution: {integrity: sha512-9hmdGErWdYDOurGYxSbqLhy4EFReIwk71hMZTJ5b+zfa2zjMNV1ftFno2b8VjAQvX615gNB8Qxbl9JMRqHnIVA==}
 
   kleur@4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
@@ -888,7 +888,7 @@ snapshots:
 
   is-arrayish@0.3.4: {}
 
-  itty-router@4.2.2: {}
+  itty-router@5.0.22: {}
 
   kleur@4.1.5: {}
 
