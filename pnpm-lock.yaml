@@ -15,8 +15,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0
       file-type:
-        specifier: ^22.0.0
-        version: 22.0.0
+        specifier: ^22.0.1
+        version: 22.0.1
       itty-router:
         specifier: ^5.0.23
         version: 5.0.23
@@ -448,8 +448,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  file-type@22.0.0:
-    resolution: {integrity: sha512-cmBmnYo8Zymabm2+qAP7jTFbKF10bQpYmxoGfuZbRFRcq00BRddJdGNH/P7GA1EMpJy5yQbqa9B7yROb3z8Ziw==}
+  file-type@22.0.1:
+    resolution: {integrity: sha512-ww5Mhre0EE+jmBvOXTmXAbEMuZE7uX4a3+oRCQFNj8w++g3ev913N6tXQz0XTXbueQ5TWQfm6BdaViEHHn8bhA==}
     engines: {node: '>=22'}
 
   fsevents@2.3.3:
@@ -851,7 +851,7 @@ snapshots:
       '@esbuild/win32-ia32': 0.27.3
       '@esbuild/win32-x64': 0.27.3
 
-  file-type@22.0.0:
+  file-type@22.0.1:
     dependencies:
       '@tokenizer/inflate': 0.4.1
       strtok3: 10.3.5
