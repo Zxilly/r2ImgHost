@@ -11,7 +11,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260729.1",
     "@types/js-md5": "^0.8.0",
-    "file-type": "^22.0.1",
+    "file-type": "^22.0.2",
     "itty-router": "^5.0.24",
     "mime": "^4.1.0",
     "moment": "^2.30.1",
