@@ -4,6 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "test": "node --import tsx --test test/*.test.cjs",
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev"
@@ -15,6 +16,7 @@
     "itty-router": "^5.0.24",
     "mime": "^4.1.0",
     "moment": "^2.31.0",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "wrangler": "^4.124.0"
   },
