@@ -18,7 +18,7 @@
     "moment": "^2.31.0",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "wrangler": "^4.124.0"
+    "wrangler": "^4.140.0"
   },
   "packageManager": "pnpm@9.4.0"
 }
