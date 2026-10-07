@@ -17,4 +17,10 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm build
+        env:
+          WRANGLER_SEND_METRICS: "false"
       - run: pnpm test
+        env:
+          WRANGLER_SEND_METRICS: "false"

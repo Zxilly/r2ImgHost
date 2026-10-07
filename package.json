@@ -7,18 +7,26 @@
     "test": "node --import tsx --test test/*.test.cjs",
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "start": "wrangler dev",
+    "typecheck": "tsc --noEmit",
+    "build": "wrangler deploy --dry-run --outdir dist"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260930.2",
     "@types/js-md5": "^0.8.0",
+    "@types/node": "^24.19.1",
     "file-type": "^22.1.1",
     "itty-router": "^5.0.24",
     "mime": "^4.1.0",
     "moment": "^2.31.0",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "wrangler": "^4.124.0"
+    "wrangler": "^4.145.0"
   },
-  "packageManager": "pnpm@9.4.0"
+  "packageManager": "pnpm@9.4.0",
+  "pnpm": {
+    "overrides": {
+      "miniflare>sharp": "0.35.5"
+    }
+  }
 }
