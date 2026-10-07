@@ -10,7 +10,7 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^5.20260924.1",
+    "@cloudflare/workers-types": "^5.20260930.2",
     "@types/js-md5": "^0.8.0",
     "file-type": "^22.1.1",
     "itty-router": "^5.0.24",
